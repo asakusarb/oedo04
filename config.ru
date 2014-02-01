@@ -1,10 +1,9 @@
 require "bundler"
 Bundler.require(:default)
 
-use Rack::StaticCache, urls: %w(/images /javascripts /stylesheets /favicon.ico), :root => "public"
-use Rack::ETag
-use Rack::Cache
 use Rack::Rewrite do
+  r302 '/', '/oedo04/'
   rewrite '/', '/index.html'
 end
-run Rack::Directory.new('public')
+
+run Rack::URLMap.new({"/oedo04" => Vienna})
