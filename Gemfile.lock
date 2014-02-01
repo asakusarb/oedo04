@@ -1,17 +1,24 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    daemon_controller (1.1.8)
+    passenger (4.0.37)
+      daemon_controller (>= 1.1.0)
+      rack
+      rake (>= 0.8.1)
     rack (1.5.2)
     rack-cache (1.2)
       rack (>= 0.4)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
     rack-rewrite (1.5.0)
+    rake (10.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  passenger
   rack
   rack-cache
   rack-contrib
