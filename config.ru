@@ -3,6 +3,10 @@ Bundler.require(:default)
 
 use Rack::Rewrite do
   r302 '/', '/oedo04/'
+  # https://github.com/ruby/www.ruby-lang.org/blob/master/config.ru#L12
+  r302 %r{.*}, "$&/", if: ->(rack_env) {
+    !rack_env["PATH_INFO"].match(/css|png/) && rack_env["PATH_INFO"].match(%r{/$}).nil?
+  }
 end
 
 map "/oedo04" do
