@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: RZn0Je4R0r4Rn2wjGEIdH8zE0OzSvERhoDFyJQvIMYTZsAu3JQ+eCRFLPGaXYlGI2YZjqYZm2W9HI5VS70pI8wK+hqkAPgnL2yia6nnGQmaJEpdHCHpaTEtov1Vj4vgI2TPF+LiMKmE11YHDc4vGH7yuCEh5fVqZq49//61zI9M=
+  app: oedo04
+  on:
+    repo: asakusarb/oedo04
