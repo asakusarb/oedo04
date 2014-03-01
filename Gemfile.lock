@@ -7,6 +7,8 @@ GEM
       rack
       rake (>= 0.8.1)
     rack (1.5.2)
+    rack-protection (1.5.2)
+      rack
     rack-rewrite (1.5.0)
     rake (10.1.1)
     vienna (0.4.0)
@@ -17,5 +19,6 @@ PLATFORMS
 
 DEPENDENCIES
   passenger
+  rack-protection
   rack-rewrite
   vienna

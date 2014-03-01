@@ -11,6 +11,9 @@ use Rack::Rewrite do
   }
 end
 
+use Rack::Protection::HttpOrigin
+use Rack::Protection::FrameOptions
+
 map "/oedo04" do
   run Vienna
 end
