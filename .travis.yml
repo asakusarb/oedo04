@@ -1,3 +1,4 @@
+script: echo 'OedoRubyKaigi04'
 deploy:
   provider: heroku
   api_key:
