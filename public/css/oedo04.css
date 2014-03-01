@@ -63,17 +63,39 @@ div.button {
   border: 1px solid #000000;
 }
 
-h3{
-  font-size:12pt;
+h3 {
+  font-size:16pt;
   margin:10px 0;
   padding:0px 10px;
   border-bottom: solid #b44c97 3px;
   width:100%;
 }
 
-p{
+p {
  margin-left:20px;
 }
+
+
+li.speakers {
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+}
+ 
+/* IE6,7のみに適用 */
+html*.speakers {
+display: inline;
+zoom: 1;
+}
+
+a.name { 
+  text-decoration: none;
+}
+a.name:hover {
+color:#333;
+text-decoration: underline;
+}
+
 
 footer {
   
