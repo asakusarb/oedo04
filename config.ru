@@ -1,6 +1,8 @@
 require "bundler"
 Bundler.require(:default)
 
+use Rack::CommonLogger
+
 use Rack::Rewrite do
   r302 '/', '/oedo04/'
   # https://github.com/ruby/www.ruby-lang.org/blob/master/config.ru#L12
