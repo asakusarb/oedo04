@@ -1,5 +1,3 @@
-language: ruby
-rvm: 2.1.1
 script: echo 'OedoRubyKaigi04'
 deploy:
   provider: heroku
