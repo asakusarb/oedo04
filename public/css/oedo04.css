@@ -96,6 +96,11 @@ color:#333;
 text-decoration: underline;
 }
 
+img.gravatar {
+  width: 80px;
+  height: 80px;
+}
+
 
 footer {
   
