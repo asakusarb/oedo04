@@ -12,44 +12,58 @@
 </style>
 </head>
 <body>
-<header>
-<div id="present">asakusa.rb Presents</div>
 
-<h1>
-大江戸<br>
-Ruby<br>
-会議04<br>
-</h1>
-<h2>2014.4.19(土)</h2>
-<h2>江戸東京博物館ホール</h2>
-</header>
-
+<div id="header">
+<div id="menuset">
+<div id="logo">
+<img src="img/logo_top.png" alt="大江戸Ruby会議04">
+</div>
+<div id="menu">
+<ul>
+<li class="menu"><a class="menu" href="">開催概要<br>About</a></li>
+<li class="menu"><a class="menu" href="">スピーカー<br>Speakers</a></li>
+<li class="menu"><a class="menu" href="">タイムテーブル<br>TimeTable</a></li>
+<li class="menu"><a class="menu" href="">アクセス<br>Access</a></li>
+<li class="menu"><a class="menu" href="">懇親会<br>Conference Party</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="topimage">
+<img src="img/koi.jpg" alt="Top Image">
+</div>
 <div id="register">
-  <div class="button">
-    <a style="color:white;text-decoration:none;" href="http://asakusarb.doorkeeper.jp/events/9502">Register</a>
-  </div>
+<div class="button"><a href="http://asakusarb.doorkeeper.jp/events/9502" style="color:#FFF;text-decoration:none;">Register</a></div>
 </div>
 
 <article>
+<h2>開催概要 / About</h2>
+<p>大江戸Ruby会議04はAsakusa.rbの256回目を記念して開催される地域Ruby会議です。<br>
+日付　2014年4月19日(土)<br>
+会場　江戸東京博物館　詳しいアクセス方法は<a href="http://www.edo-tokyo-museum.or.jp/access/guide/index.html">こちら</a><br>
+開場　9:30<br>
+開演　10:00〜<br>
+</p>
+</article>
+
+<article>
+<h2>登壇者 / Speakers</h2>
+<div class="speakers">
 <h3>基調講演 / Keynote</h3>
-<p>
-<ul>
+<ul class="speakers">
 <li class="speakers">
 <a href="http://twitter.com/ebiltwin" class="name"><img class="gravatar" src="http://www.gravatar.com/avatar/8df22a379504c6a1a493b7d35a751055" alt="Ebi Patterson"><br>Ebi Patterson<br>@ebiltwin</a><br>
 </li>
 </ul>
-</p>
+
 <h3>基調講演 前座 / Opening Act</h3>
-<p>
-<ul>
+<ul class="speakers">
 <li class="speakers">
 <a href="http://twitter.com/tenderlove" class="name"><img class="gravatar" src="http://www.gravatar.com/avatar/f29327647a9cff5c69618bae420792ea" alt="Aaron Patterson"><br>Aaron Patterson<br>@tenderlove</a><br>
 </li>
 </ul>
-</p>
 <h3>招待講演 / Invited Speakers</h3>
-<p>
-<ul>
+<ul class="speakers">
 <li class="speakers">
 <a href="http://twitter.com/mineroaoki" class="name"><img class="gravatar" src="http://www.gravatar.com/avatar/0d9e60b12d0a40841b1a746b112ad36b" alt="Minero Aoki"><br>Minero Aoki<br>@mineroaoki</a><br>
 </li>
@@ -57,10 +71,8 @@ Ruby<br>
 <a href="http://twitter.com/_zzak" class="name"><img class="gravatar" src="http://www.gravatar.com/avatar/7fe945668a4fc098e886e20dea71d2ee" alt="Zachary Scott"><br>Zachary Scott<br>@_zzak</a><br>
 </li>
 </ul>
-</p>
 <h3>記念講演 / Happy Wedding Speakers</h3>
-<p>
-<ul>
+<ul class="speakers">
 <li class="speakers">
 <a href="http://twitter.com/_ko1" class="name"><img class="gravatar" src="http://www.gravatar.com/avatar/2ead807305f1256d739e30b5c14e12c0" alt="_ko1"><br>_ko1<br>@_ko1</a><br>
 </li>
@@ -68,11 +80,9 @@ Ruby<br>
 <a href="http://twitter.com/yotii23" class="name"><img class="gravatar" src="http://www.gravatar.com/avatar/c67596c92e9d161d314f69de3f05f00c" alt="やきとりい"><br>やきとりい<br>@yotii23</a><br>
 </li>
 </ul>
-</p>
 
-<h3>スピーカー / Speakers</h3>
-<p>
-<ul>
+<h3>忍者のみなさん / Ninja Talks</h3>
+<ul class="speakers">
 <li class="speakers">
 <a href="http://twitter.com/_ksss_" class="name"><img class="gravatar" src="http://www.gravatar.com/avatar/77897395d9b84463bd474a69b922b2ec" alt="Yuki Kurihara"><br>Yuki Kurihara<br>@_ksss_</a><br>
 </li>
@@ -111,38 +121,111 @@ Ruby<br>
 </li>
 <li class="speakers">and probably some more ...?</li>
 </ul>
-</p>
+</div>
 </article>
 
+<article>
+<h2>タイムテーブル / Time Table</h2>
+<table id="timetable">
+<tr>
+  <td class="time">10:00</td>
+  <td>Opening</td>
+  <td class="speakers_name">
+  </td>
+</tr>
+<tr>
+  <td class="time">10:15</td>
+  <td>Ninja Talks 1</td>
+  <td class="speakers_name">
+  hsbt<br>
+  arai ryota<br>
+  winstonyw<br>
+  </td>
+</tr>
+<tr>
+  <td class="time">11:20</td>
+  <td>招待講演 1</td>
+  <td class="speakers_name">zzak
+  </td>
+</tr>
+<tr>
+  <td class="time">12:00</td>
+  <td>おひるやすみ</td>
+  <td class="speakers_name">
+  </td>
+</tr>
+<tr>
+  <td class="time">13:30</td>
+  <td>Ninja Talks 2</td>
+  <td class="speakers_name">
+  lchin and ...?<br>
+  makimoto<br>
+  kawamoto</td>
+</tr>
+<tr>
+  <td class="time">14:35</td>
+  <td>基調講演</td>
+  <td class="speakers_name">
+ebi and aaron
+</td>
+</tr>
+<tr>
+  <td class="time">15:20</td>
+  <td>休憩</td>
+  <td class="speakers_name">
+</td>
+</tr>
+<tr>
+  <td class="time">15:50</td>
+  <td>Ninja Talks 3</td>
+  <td class="speakers_name">
+  kunitoo<br>
+  shyouhei<br>
+  sekai
+  </td>
+</tr>
+<tr>
+  <td class="time">16:55</td>
+  <td>記念講演</td>
+  <td class="speakers_name">
+  ko1 (& yakitorii)
+　　</td>
+</tr>
+<tr>
+  <td class="time">17:30</td>
+  <td>Ninja Talks 4</td>
+  <td class="speakers_name">
+  knsmr<br>
+  ksss<br>
+  amatsuda
+  </td>
+</tr>
+<tr>
+  <td class="time">18:30</td>
+  <td>招待講演 2</td>
+  <td class="speakers_name">
+  mineroaoki
+  </td>
+</tr>
+<tr>
+  <td class="time">19:00</td>
+  <td>Closing</td>
+  <td class="speakers_name">
+  </td>
+</tr>
+</table>
+</article>
 
 <article>
-<h3>タイムテーブル/Schedule</h3>
+<h2>アクセス / Access</h2>
 <p>
-<strong>Coming Soon~</strong>
+<a href="http://www.edo-tokyo-museum.or.jp/access/guide/index.html">江戸東京博物館<br>
+Edo Tokyo Museum</a><br>
 </p>
 </article>
 
 <article>
-<h3>会場/Location</h3>
-<p>
-江戸東京博物館<br>
-Edo Tokyo Museum<br>
-
-</p>
-</article>
-
-<article>
-<h3>日時/Date</h3>
-<p>
-2014年4月19日(土)<br>
-Door Open at 9:30 am<br>
-Start at 10:00 am<br>
-19/Apr 2014 (Sat)<br>
-</p>
-</article>
-
-<article>
-<h3>懇親会/Conference Party</h3>
+<h2>懇親会について</h2>
 <p>
 <a href="http://asakusarb.doorkeeper.jp/events/9751">Register via Doorkeeper (6,000JPY required in advance)</a><br>
 Start at 19:30

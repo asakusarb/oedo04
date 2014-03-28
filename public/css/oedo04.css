@@ -1,111 +1,169 @@
 body {
   font-family: serif;
   line-height: 1.5;
-  background-image: url("bg.png");
-  background-color: #fef4f4;
-  color: #4b0082;
+  background-color: #FAFDFE;
+  color: #221814;
   margin:0;
 }
-
-div#present {
-  width:99%;
-  background-color:#745399;
-  color:#fef4f4;
-  font-size:small;
-  text-align:right;
-  margin: 0px;
-  padding-right: 1%;
+a { 
+  text-decoration: none;
+  color: #3F4659;
+}
+a:hover {
+color: #2362AD;
+text-decoration: underline;
 }
 
-h1, h2 {
-  width:40%;
-  margin:0 auto;
-  text-align:center;
-  color: #333;
+div#header {
+  width: 100%;
+  height: 130px;
+  position: relative;
+  background-color: #FAFDFE;
 }
 
-h1{
-  font-size:60pt;
-  line-height:65pt;
-  margin: 40px auto;
+div#menuset {
+  width: 900px;
+  margin: 0px auto;
 }
 
-article {
-  width:60%;
-  margin:0 auto;
+div#logo {
+  position:relative;
+  width: 138px;
+  height: 140px;
+  padding-top: 30px;
+  background-color: white;
+  border: solid 1px #666;
+  border-top: none;
+  text-align: center;
+  z-index: 1;
+}
+
+div#menu {
+  position:relative;
+  top: -110px;
+  left: 25%;
+  height: 40px;
+}
+
+li.menu {
+  display:inline-block;
+  width: 120px;
+  font-size: 10pt;
+}
+/* IE6,7のみに適用 */
+html*.menu {
+display: inline;
+zoom: 1;
+}
+
+a.menu { 
+  text-decoration: none;
+  color: #3F4659;
+}
+a.menu:hover {
+color: #2362AD;
+text-decoration: underline;
+}
+
+div#topimage{
+position:relative;
+background-image: url(../img/koi_bg.jpg);
+width: 100%;
+height: 330px;
+text-align: center;
 }
 
 div#register {
-  background-color:#745399;
-  color:#fef4f4;
-  text-align:center;
-  padding:10px;
+color:#fef4f4;
+text-align:center;
+padding: 40px;
+margin: 0px;
 }
-
 div.button {
   width:100px;
   margin:0 auto;
   text-align:center;
   font-size: 14px;
-  color: #ffffff;
   padding: 10px 20px;
   background: -moz-linear-gradient(
 		top,
-		#ffb0b0 0%,
-		#cc0074);
+		#C67DB1 0%,
+		#C2440A);
   background: -webkit-gradient(
 		linear, left top, left bottom,
-		from(#ffb0b0),
-		to(#cc0074));
+		from(#C67DB1),
+		to(#C2440A));
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   border: 1px solid #000000;
 }
+article {
+  width: 900px;
+  margin: 24px auto;
+}
 
-h3 {
-  font-size:16pt;
-  margin:10px 0;
-  padding:0px 10px;
-  border-bottom: solid #b44c97 3px;
-  width:100%;
+h2 {
+  font-size:12pt;
+  padding-left: 25px;
+  background-image: url(../img/listicon1.png);
+  background-repeat: no-repeat;
+  width: 225px;
+  display: table-cell;
 }
 
 p {
- margin-left:20px;
+  display: table-cell;
 }
 
+div.speakers{
+  display: table-cell;
+  font-size: 10pt;
+}
 
+h3{
+font-size: 12pt;
+color: #4E5D7F;
+margin: 0px;
+clear: left;
+}
+
+ul.speakers{
+ margin-top: 0px;
+}
 li.speakers {
-  display: inline-block;
-  padding: 0px 20px;
+  float: left;
   text-align: center;
-}
- 
+  padding: 0px 20px 40px 20px;
+  list-style: none;
+} 
 /* IE6,7のみに適用 */
 html*.speakers {
 display: inline;
 zoom: 1;
 }
-
-a.name { 
-  text-decoration: none;
-}
-a.name:hover {
-color:#333;
-text-decoration: underline;
+img.gravatar{
+width: 150px;
 }
 
-img.gravatar {
-  width: 80px;
-  height: 80px;
+table#timetable{
+  margin-left: 270px;
+  margin-top: -35px;
+  width: 65%;
+  padding: 10px 30px;
+  border-spacing: 0px;
+}
+td{
+border-bottom:solid #999 1px;
+vertical-align: top;
+}
+td.time{
+width: 80px;
 }
 
-
-footer {
-  
+footer { 
   width:100%;
-  background-color:#745399;
+  background-color:#2362AD;
   color:#fef4f4;
   text-align:center;
 }
