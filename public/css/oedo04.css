@@ -167,3 +167,12 @@ footer {
   color:#fef4f4;
   text-align:center;
 }
+a.footerlink {
+  text-decoration: none;
+  color: #99dddd;
+}
+a.footerlink:hover {
+  text-decoration: underline;
+  color: #99dddd;
+}
+
