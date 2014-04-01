@@ -79,12 +79,14 @@ text-align:center;
 padding: 40px;
 margin: 0px;
 }
-div.button {
-  width:100px;
+
+button {
+  width:200px;
   margin:0 auto;
   text-align:center;
-  font-size: 14px;
-  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px; 
   background: -moz-linear-gradient(
 		top,
 		#C67DB1 0%,
@@ -98,6 +100,23 @@ div.button {
   border-radius: 10px;
   border: 1px solid #000000;
 }
+
+button:hover {
+  background: -moz-linear-gradient(
+		top,
+		#7FAEC6 0%,
+		#184B89);
+  background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#7FAEC6),
+		to(#184B89));
+  border: 1px solid #000000;
+}
+b.price {
+color: #ffcccc;
+font-size: 14px;
+}
+
 article {
   width: 900px;
   margin: 24px auto;
