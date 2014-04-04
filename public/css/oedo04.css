@@ -165,6 +165,9 @@ zoom: 1;
 }
 img.gravatar{
 width: 150px;
+padding: 5px;
+background: #fff;
+border: 1px solid #bfbfbf;
 }
 
 article#ttbox {
