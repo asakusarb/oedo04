@@ -1,17 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    daemon_controller (1.1.8)
-    passenger (4.0.37)
-      daemon_controller (>= 1.1.0)
+    passenger (5.2.0)
       rack
       rake (>= 0.8.1)
-    rack (1.5.2)
-    rack-protection (1.5.2)
+    rack (1.6.8)
+    rack-protection (2.0.0)
       rack
-    rack-rewrite (1.5.0)
-    rake (10.1.1)
-    vienna (0.4.0)
+    rack-rewrite (1.5.1)
+    rake (12.3.0)
+    vienna (0.4.1)
       rack (~> 1.5)
 
 PLATFORMS
@@ -22,3 +20,6 @@ DEPENDENCIES
   rack-protection
   rack-rewrite
   vienna
+
+BUNDLED WITH
+   1.16.1
