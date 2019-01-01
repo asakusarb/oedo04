@@ -1,16 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    passenger (5.2.0)
+    passenger (6.0.0)
       rack
       rake (>= 0.8.1)
-    rack (1.6.8)
-    rack-protection (2.0.0)
+    rack (2.0.6)
+    rack-protection (2.0.5)
       rack
     rack-rewrite (1.5.1)
-    rake (12.3.0)
-    vienna (0.4.1)
-      rack (~> 1.5)
+    rake (12.3.2)
+    vienna (0.4.2)
+      rack (~> 2.0)
 
 PLATFORMS
   ruby
@@ -22,4 +22,4 @@ DEPENDENCIES
   vienna
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
