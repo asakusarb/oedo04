@@ -4,13 +4,13 @@ GEM
     passenger (6.0.10)
       rack
       rake (>= 0.8.1)
-    rack (1.6.13)
+    rack (2.2.3)
     rack-protection (2.1.0)
       rack
     rack-rewrite (1.5.1)
     rake (13.0.6)
-    vienna (0.4.1)
-      rack (~> 1.5)
+    vienna (0.4.2)
+      rack (~> 2.0)
 
 PLATFORMS
   x86_64-darwin-18
@@ -18,7 +18,7 @@ PLATFORMS
 
 DEPENDENCIES
   passenger
-  rack (< 2)
+  rack (< 3)
   rack-protection
   rack-rewrite
   vienna
