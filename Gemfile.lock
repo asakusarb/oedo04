@@ -1,14 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    passenger (6.0.8)
+    passenger (6.0.10)
       rack
       rake (>= 0.8.1)
     rack (2.2.3)
     rack-protection (2.1.0)
       rack
     rack-rewrite (1.5.1)
-    rake (13.0.3)
+    rake (13.0.6)
     vienna (0.4.2)
       rack (~> 2.0)
 
@@ -25,4 +25,4 @@ RUBY VERSION
    ruby 2.4.10p364
 
 BUNDLED WITH
-   2.2.15
+   2.2.27
